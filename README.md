@@ -68,7 +68,8 @@ Comments:
    ```
 
 4. [Install dependencies](https://docs.flutter.dev/packages-and-plugins/using-packages#adding-a-package-dependency-to-an-app). For this step, run the following command on the root project: `flutter pub get`.
-5. Open the project on the IDE. You can use Visual Studio Code or Android Studio (the first one is recommended).
+5. [Configurate Firebase](https://firebase.google.com/docs/flutter/setup?platform=android).
+6. Open the project on the IDE. You can use Visual Studio Code or Android Studio (the first one is recommended).
 
 ## Run and Debug
 
