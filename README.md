@@ -37,6 +37,8 @@
     - [Use VS Code to install Flutter](https://docs.flutter.dev/get-started/install/windows/mobile?tab=vscode#use-vs-code-to-install-flutter).
     - [Download then install Flutter](https://docs.flutter.dev/get-started/install/windows/mobile?tab=download#download-then-install-flutter).
 
+11. [Install Firebase CLI and FlutterFire CLI](https://firebase.google.com/docs/flutter/setup?platform=android).
+
 Comments:
 
 *: The repository will automatically install and configure required extensions when opened in VS Code. It is also recommended to create a Flutter configuration [profile in VS Code](https://code.visualstudio.com/docs/editor/profiles).
@@ -68,8 +70,9 @@ Comments:
    ```
 
 4. [Install dependencies](https://docs.flutter.dev/packages-and-plugins/using-packages#adding-a-package-dependency-to-an-app). For this step, run the following command on the root project: `flutter pub get`.
-5. [Configurate Firebase](https://firebase.google.com/docs/flutter/setup?platform=android).
-6. Open the project on the IDE. You can use Visual Studio Code or Android Studio (the first one is recommended).
+5. Log into Firebase: `firebase login`
+6. Configure the project with FlutterFire: `flutterfire configure`
+7. Open the project on the IDE. You can use Visual Studio Code or Android Studio (the first one is recommended).
 
 ## Run and Debug
 
